@@ -7,6 +7,7 @@ import RenderListProduct from './Component/RenderListProduct/RenderList';
 
 import HomeLayout from './Component/HomeLayout/Home';
 import RenderMap from './Component/RenderWithMap/RenderMap';
+import ExShoeStore from "./Component/Props/ExShoeStore/ShoeStore";
 
 
   <div>
@@ -15,7 +16,7 @@ import RenderMap from './Component/RenderWithMap/RenderMap';
       
       <RenderMap />  
       <RenderListProduct />
-      <ExShoeStore /> 
+      <ExShoeStore/>
       
   </div>
 
