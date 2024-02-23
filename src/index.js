@@ -6,17 +6,17 @@ import React from "react";
 import RenderListProduct from './Component/RenderListProduct/RenderList';
 
 import HomeLayout from './Component/HomeLayout/Home';
-import RenderMap from './Component/RenderWithMap/RenderMap';
 import ExShoeStore from "./Component/Props/ExShoeStore/ShoeStore";
+import Modal from "./Component/Props/Modal/ViewShoeDetail";
 
 
   <div>
     
       <HomeLayout />
       
-      <RenderMap />  
       <RenderListProduct />
-      <ExShoeStore/>
+      <ExShoeStore/> 
+      <Modal />
       
   </div>
 
