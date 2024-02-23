@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import ListItem from './ListItem'
+import ListItem from "./ListItem";
+
+
 
 const dataListShoe = [
   {
@@ -148,7 +150,7 @@ export default class RenderListProduct extends Component {
   render() {
     return (
       <div className="container">
-        <h3>Shoe Store </h3>
+        <h3>Shoe shop</h3>
         <ListItem dataShoeList={dataListShoe} />
       </div>
     );

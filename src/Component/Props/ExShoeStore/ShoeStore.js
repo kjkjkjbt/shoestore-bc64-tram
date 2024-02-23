@@ -145,7 +145,7 @@
         (shoe) => shoe.id == shoeClick.id,
         );
         // nếu mà có sản phẩm đó trong giỏ hàng rồi thì so lượng + 1
-        if (indexShoe != -1) {
+        if (indexShoe !== -1) {
         cartShoeCurrent[indexShoe].soLuong += 1;
         } else {
         // Nếu chưa có thì thêm sản phẩm đó vào arr cart

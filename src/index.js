@@ -1,8 +1,8 @@
-import React from "react";
 // import ReactDOM from "react-dom/client";
 // import { Route } from "react-router";
 
 // import {BrowserRouter} from "react-router-dom"
+import React, { Component } from 'react'
 import RenderListProduct from './Component/RenderListProduct/RenderList';
 
 import HomeLayout from './Component/HomeLayout/Home';
@@ -10,15 +10,22 @@ import ExShoeStore from "./Component/Props/ExShoeStore/ShoeStore";
 import Modal from "./Component/Props/Modal/ViewShoeDetail";
 
 
-  <div>
-    
-      <HomeLayout />
+export default class index extends Component {
+  render() {
+    return (
+      <div>
+        <HomeLayout />
       
       <RenderListProduct />
       <ExShoeStore/> 
       <Modal />
-      
-  </div>
+
+      </div>
+    )
+  }
+}
+
+  
 
 
 

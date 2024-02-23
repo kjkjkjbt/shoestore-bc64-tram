@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ItemCard from './ItemCart';
+import ItemCart from './ItemCart';
 
 export default class ListProductItem extends Component {
   renderListShoe() {
@@ -8,7 +8,7 @@ export default class ListProductItem extends Component {
     let contentCardShoe = dataShoeList.map((shoe, index) => {
       return (
         <div key={index} className="col-4 mt-3">
-          <ItemCard dataShoe={shoe} />
+          <ItemCart dataShoe={shoe} />
         </div>
       );
     });
