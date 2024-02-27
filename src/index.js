@@ -1,13 +1,16 @@
-// import ReactDOM from "react-dom/client";
-// import { Route } from "react-router";
 
-// import {BrowserRouter} from "react-router-dom"
 import React, { Component } from 'react'
 import RenderListProduct from './Component/RenderListProduct/RenderList';
 
 import HomeLayout from './Component/HomeLayout/Home';
 import ExShoeStore from "./Component/Props/ExShoeStore/ShoeStore";
 import Modal from "./Component/Props/Modal/ViewShoeDetail";
+import ItemCart from './Component/RenderListProduct/ItemCart';
+import ListProductItem from './Component/RenderListProduct/ListItem';
+import ProductItem from './Component/Props/ExShoeStore/ProductItem';
+import ProductListItem from './Component/Props/ExShoeStore/ProductListItem';
+import CartShoe from './Component/Props/ExShoeStore/CartShoe';
+import ShoeStore from './Component/Props/ExShoeStore/ShoeStore';
 
 
 export default class index extends Component {
@@ -19,6 +22,12 @@ export default class index extends Component {
       <RenderListProduct />
       <ExShoeStore/> 
       <Modal />
+      <ItemCart />
+      <ListProductItem />
+      <ProductItem />
+      <ProductListItem />
+      <CartShoe />
+      <ShoeStore /> 
 
       </div>
     )
